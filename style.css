@@ -1,0 +1,59 @@
+body{ 
+    font-family: "Roboto Slab", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* Dark mode colors and gradient */
+    background: #121212; /* Fallback for browsers that don't support gradients */
+    background: linear-gradient(
+      135deg,
+      #121212 25%,
+      #1a1a1a 25%,
+      #1a1a1a 50%,
+      #121212 50%,
+      #121212 75%,
+      #1a1a1a 75%,
+      #1a1a1a
+    );
+    background-size: 40px 40px;
+  
+    /* Animation */
+    animation: move 4s linear infinite;
+}
+h1{
+    text-decoration: underline;
+}
+.card {
+    margin-top: 20px;
+    width: 400px;
+    height: auto;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #ffffff;
+
+  }
+  
+.projects{
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+}
+  
+@keyframes move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 40px 40px;
+    }
+  }
