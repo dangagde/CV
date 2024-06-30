@@ -48,7 +48,10 @@ h1{
     color: rgb(58, 58, 58);
     text-decoration: none;
 }
-  
+
+a{
+  font-weight: bold;
+}
 @keyframes move {
     0% {
       background-position: 0 0;
